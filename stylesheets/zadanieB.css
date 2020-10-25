@@ -1,0 +1,141 @@
+/*
+    Autor: Mateusz Niełacny
+    Indeks: s16534
+*/
+
+/* Importy */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 98.25vw;
+    background: #edf0f4;
+    font-family: 'Lato', sans-serif;
+    color: #3c3c3c;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+footer {
+    padding: .75rem;
+}
+
+p {
+    padding: .25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 8px;
+    background: #4287f5;
+    border-radius: 7px;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=textarea] {
+    padding: 0.75rem;
+    border-radius: 7px;
+    border: 1px solid #00000038;
+    width: calc(100% - .5rem);
+    margin: 0.25rem;
+}
+
+button {
+    padding: .75rem;
+    border-radius: 8px;
+    border: 0px;
+}
+
+button[type=submit] {
+    background: #0093e1;
+    color: white;
+}
+
+button[type=submit]:hover {
+    background: #0071ad;
+    color: white;
+}
+
+button[type="reset"] {
+    background: #5ec0f9;
+    color: white;
+}
+
+
+button[type="reset"]:hover {
+    background: #4093c4;
+    color: white;
+}
+
+fieldset {
+    border-radius: 7px;
+    border: 1px solid #00000038;
+    margin: .5rem;
+}
+
+legend {
+    margin-left: .75rem
+}
+
+textarea {
+    border: 1px solid #00000038;
+    border-radius: 7px;
+    padding: 8px;
+    width: calc(100% - .5rem);
+    margin: 0.25rem;
+    height: 75px;
+}
+
+/* Klasy */
+
+.container {
+    width: 25vw;
+    margin: 5vw auto;
+}
+
+
+.content {    
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
+.box {    
+    padding: .5rem;
+}
+
+.box > h2 {
+    padding: 8px 15px;
+    background: #4287f53d;
+    border-radius: 7px;
+    color: #3c3c3c;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.rules {
+    padding: 0px 15px;
+}

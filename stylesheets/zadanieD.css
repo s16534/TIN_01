@@ -1,0 +1,154 @@
+/*
+    Autor: Mateusz Niełacny
+    Indeks: s16534
+*/
+
+/* Importy */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 98.25vw;
+    background: #edf0f4;
+    font-family: 'Lato', sans-serif;
+    color: #3c3c3c;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+footer {
+    padding: .75rem;
+}
+
+p {
+    padding: .25rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 8px;
+    background: #4287f5;
+    border-radius: 7px;
+}
+
+
+/* Klasy */
+
+.container {
+    width: 40vw;
+    margin: 50px auto;
+}
+
+
+.content {    
+    background: #FFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.box {    
+    padding: .5rem;
+    clear: none;
+}
+
+
+.box > h2 {
+    padding: 8px 15px;
+    background: #4287f53d;
+    border-radius: 7px;
+    color: #3c3c3c;
+}
+
+.box > p {
+    text-align: justify;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.column {
+    width: 100%;
+}
+
+section {
+    margin: 15px 0px;
+}
+
+article {
+    padding: 10px;
+    min-height: 193px;
+    /* Powinny posiadać obramowanie oraz niestandardowy kolor tła */
+    border: 1px solid #005dae1a;
+    border-radius: 12px;
+    background: #f0f8ff7a;
+    margin: 15px 0px;
+}
+
+.article-image {
+    float: left;
+    padding: 10px;
+}
+
+.article-image > img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+
+.article-content {
+    padding: 10px;
+}
+.article-title {   
+    /* Powinien posiadać niestandardową wielkość czcionki */ 
+    font-size: 20px;
+    /* Powinien być odsunięty od lewej krawędzi strony o dowolną liczbę pikseli */
+    margin-left: 1px;
+}
+
+.article-title > a {    
+    color: black;
+    /* podkreślenie (bez używania znacznika<u></u>) */
+    text-decoration: underline;
+}
+
+.article-title > a:hover {    
+    color: #4287f5;
+}
+
+.article-text {
+    /* Tekst artykułu powinien być oddalony o jednakową liczbę pikseli od każdej z krawędzi obramowania */
+    padding: .25rem;
+    /* Powinny być odsunięte od lewej krawędzi strony o dowolną liczbę pikseli (większą niż nagłówek) */
+    margin-left: 2px;
+}
+
+.banner {
+    height: 193px;
+    width: 99%;
+    margin-top: 15px;
+    border-radius: 12px;
+    background-image: url(../images/D_000.jpg);
+    opacity: .9;
+    margin: 15px auto;
+    
+}
+
+/* ID'ki */
+
+#naglowek {
+    text-align: center;
+    color: #fff;
+}
